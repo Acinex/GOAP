@@ -8,9 +8,9 @@
 * Use ```UpdateGoals```, ```SetGoals```, ```UpdateReachedGoals``` & ```SetReachedGoals``` to start your pawn doing some actions
 
 # Social
-[Discord](https://discord.gg/R3mH4YaADC)
-[Tell me your Secret](https://tmys-game.com)
-[Acinex](https://acinex.com)
+[Discord](https://discord.gg/R3mH4YaADC)  
+[Tell me your Secret](https://tmys-game.com)  
+[Acinex](https://acinex.com)  
 [Patreon](https://patreon.acinex.com)
 
 ## Actions
