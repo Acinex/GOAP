@@ -37,3 +37,28 @@ Give the precondition a value. We wanted to give more freedom to the developers/
 #### Effects
 Every of the effects will be applied once this action is markes as successfully finished. When an action is finished unsuccessfully, none of the effects are applied.  
 ![image](https://user-images.githubusercontent.com/6481850/114223855-9891a200-9970-11eb-984e-714e9889725c.png)
+
+## Controller
+Every controller will add its own Planner which creates its own instances of actions.
+### Update Goals
+Is used to alter existing goals and add new goals if not existing.  
+### Set Goal
+_Will be renamed to Set Goals_  
+_removes_ all the existing goals and inserts the goals from the input.
+### Update Reached Goals
+Basically the same as ```Update Goals``` but for reached goals which will be used as preconditions.
+### Set Reached Goals
+Basically the same as ```Set Goals``` but for reached goals which will be used as preconditions.
+### Execute Goal Orientated Action Plan
+Will create a plan, if no action is currently active and if the plan contains any actions it will start to execute them one after another
+![image](https://user-images.githubusercontent.com/6481850/114227206-f58f5700-9974-11eb-9498-01902bf86d70.png)
+
+
+
+## Settings
+You can change some settings for the whole project.  
+#### Select random Action
+Whenever the system determines the next action it will select a random action of the available once instead of selecting the first which will represent the order of your action-classes in the controller
+#### Default actions for every controller
+Every controller will add those actions before it will add the actions you set inside that controller.  
+![image](https://user-images.githubusercontent.com/6481850/114226388-cc21fb80-9973-11eb-98bf-70e9b40b4ba9.png)
