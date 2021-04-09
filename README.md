@@ -50,12 +50,20 @@ Basically the same as ```Update Goals``` but for reached goals which will be use
 Basically the same as ```Set Goals``` but for reached goals which will be used as preconditions.
 ### Execute Goal Orientated Action Plan
 Will create a plan, if no action is currently active and if the plan contains any actions it will start to execute them one after another
-![image](https://user-images.githubusercontent.com/6481850/114227206-f58f5700-9974-11eb-9498-01902bf86d70.png)
+![image](https://user-images.githubusercontent.com/6481850/114229618-5c623f80-9978-11eb-83d3-8336dad19a22.png)
 
 ### Class Defaults
+#### Reached Goals
+set the starting reached goals for this controller
+#### Desired Goals
+set the starting goals, this controller wants to reach
+#### Action Classes
+Decide which actions can be executed with this controller
+#### Max Depth
+To prevent endless chains of actions and maybe you've created a loop by accident (if this is possible), you can set a max depth the plan can have bevor the creation of this plan will be stopped
+#### Execute Every Tick
+You decide, if you want to execute the generation of a plan by yourself or if the controller should handle that for you. If you experience some performance problems when you have tons of actions which will be completed in a tick, you might want to set this to false
 ![image](https://user-images.githubusercontent.com/6481850/114228764-38eac500-9977-11eb-85f6-d0da5661f33b.png)
-
-
 
 ## Settings
 You can change some settings for the whole project.  
