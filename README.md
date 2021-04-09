@@ -5,7 +5,7 @@
 * Create either a c++ class or a blueprint based on ```GOAPAction```.  
  I highly recommend creating those mostly in blueprints because then you have the easiest way to access all your assets
 * Create a Blueprint based on your controller and add as many actions as you want
-* Use ```UpdateGoals```, ```SetGoal```, ```UpdateReachedGoals``` & ```SetReachedGoals``` to start your pawn doing some actions
+* Use ```UpdateGoals```, ```SetGoals```, ```UpdateReachedGoals``` & ```SetReachedGoals``` to start your pawn doing some actions
 
 
 ## Actions
@@ -42,8 +42,7 @@ Every of the effects will be applied once this action is markes as successfully 
 Every controller will add its own Planner which creates its own instances of actions.
 ### Update Goals
 Is used to alter existing goals and add new goals if not existing.  
-### Set Goal
-_Will be renamed to Set Goals_  
+### Set Goals
 _removes_ all the existing goals and inserts the goals from the input.
 ### Update Reached Goals
 Basically the same as ```Update Goals``` but for reached goals which will be used as preconditions.
