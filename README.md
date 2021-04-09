@@ -7,6 +7,11 @@
 * Create a Blueprint based on your controller and add as many actions as you want
 * Use ```UpdateGoals```, ```SetGoals```, ```UpdateReachedGoals``` & ```SetReachedGoals``` to start your pawn doing some actions
 
+# Social
+[Discord](https://discord.gg/R3mH4YaADC)
+[Tell me your Secret](https://tmys-game.com)
+[Acinex](https://acinex.com)
+[Patreon](https://patreon.acinex.com)
 
 ## Actions
 An action is used to perform a single piece of a complete workflow.  
