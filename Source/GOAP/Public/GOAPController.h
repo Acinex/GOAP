@@ -29,7 +29,7 @@ public:
 	void UpdateGoals(const TArray<FGOAPGoal>& Goals);
 
 	UFUNCTION(BlueprintCallable, Category = GOAP)
-	void SetGoal(const TArray<FGOAPGoal>& Goals);
+	void SetGoals(const TArray<FGOAPGoal>& Goals);
 
 	UFUNCTION(BlueprintCallable, Category = GOAP)
 	void UpdateReachedGoals(const TArray<FGOAPGoal>& Goals);

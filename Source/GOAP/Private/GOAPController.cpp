@@ -37,7 +37,7 @@ void AGOAPController::UpdateGoals(const TArray<FGOAPGoal>& Goals)
 		DesiredState.AddVertex(Goal.Name.ToString(), Goal.Value);
 }
 
-void AGOAPController::SetGoal(const TArray<FGOAPGoal>& Goals)
+void AGOAPController::SetGoals(const TArray<FGOAPGoal>& Goals)
 {
 	DesiredState.Clear();
 	UpdateGoals(Goals);
