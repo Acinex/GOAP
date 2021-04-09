@@ -52,6 +52,9 @@ Basically the same as ```Set Goals``` but for reached goals which will be used a
 Will create a plan, if no action is currently active and if the plan contains any actions it will start to execute them one after another
 ![image](https://user-images.githubusercontent.com/6481850/114227206-f58f5700-9974-11eb-9498-01902bf86d70.png)
 
+### Class Defaults
+![image](https://user-images.githubusercontent.com/6481850/114228764-38eac500-9977-11eb-85f6-d0da5661f33b.png)
+
 
 
 ## Settings
