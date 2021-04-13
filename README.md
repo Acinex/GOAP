@@ -67,7 +67,7 @@ Decide which actions can be executed with this controller
 #### Max Depth
 To prevent endless chains of actions and maybe you've created a loop by accident (if this is possible), you can set a max depth the plan can have bevor the creation of this plan will be stopped
 #### Execute Every Tick
-You decide, if you want to execute the generation of a plan by yourself or if the controller should handle that for you. If you experience some performance problems when you have tons of actions which will be completed in a tick, you might want to set this to false
+You decide, if you want to execute the generation of a plan by yourself or if the controller should handle that for you. If you experience some performance problems when you have tons of actions which will be completed in a tick, you might want to set this to false  
 ![image](https://user-images.githubusercontent.com/6481850/114228764-38eac500-9977-11eb-85f6-d0da5661f33b.png)
 
 ## Settings
