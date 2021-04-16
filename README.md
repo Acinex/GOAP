@@ -7,6 +7,10 @@
 * Create a Blueprint based on your controller and add as many actions as you want
 * Use ```UpdateGoals```, ```SetGoals```, ```UpdateReachedGoals``` & ```SetReachedGoals``` to start your pawn doing some actions
 
+# How to install
+use this command from your project folder:  
+```git submodule add -b 4.26 https://github.com/Acinex/GOAP.git Plugins/GOAP```
+
 # Social
 [Discord](https://discord.gg/R3mH4YaADC)  
 [Tell me your Secret](https://tmys-game.com)  
