@@ -22,7 +22,7 @@ void FGOAPModule::StartupModule()
 void FGOAPModule::ShutdownModule()
 {
 	if (ISettingsModule* SettingsModule = FModuleManager::GetModulePtr<ISettingsModule>("Settings"))
-		SettingsModule->UnregisterSettings("Project", "Plugins", "Goal Orientated Action Planning");
+		SettingsModule->UnregisterSettings("Project", "Editor", "ClassViewer");
 }
 
 #undef LOCTEXT_NAMESPACE
