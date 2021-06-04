@@ -3,7 +3,7 @@
 #include "GOAP.h"
 
 #include "GOAPSettings.h"
-#include "ISettingsModule.h"
+#include "Developer/Settings/Public/ISettingsModule.h"
 
 #define LOCTEXT_NAMESPACE "FGOAPModule"
 
